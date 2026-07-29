@@ -1,0 +1,35 @@
+version: 2
+
+seeds:
+  - name: MS_Data_2024
+    config:
+      column_types:
+        Theatre_Name_Internal: varchar
+        Theatre_Name_Comparable: varchar
+        Circuit_Code: varchar
+        Circuit_Name: varchar
+        Metro: varchar
+        Metro_Rank: varchar
+        City: varchar
+        State: varchar
+        Postal_Code: varchar
+        Rtk_Theatre_No: varchar
+        Branch: varchar
+        Zone: varchar
+        Area: varchar
+        Date_Range_Gross: varchar
+        #_Screens: varchar
+        Latitude: varchar
+        Longitude: varchar
+        Prev_Year_Range_Gross: varchar
+        Percentage: varchar
+        Period: varchar
+        Day: varchar
+        Fiscal_Week: varchar
+        Fiscal_Week_Count: varchar
+        Date: varchar
+        DayOfWeek: varchar
+        EEG: varchar
+        Category: varchar
+        Day_Count: varchar
+        Daily_MS: varchar

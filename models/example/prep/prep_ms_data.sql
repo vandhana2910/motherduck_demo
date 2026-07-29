@@ -6,6 +6,7 @@ SELECT
     CAST(REPLACE(REPLACE(Prev_Year_Range_Gross, '$', ''), ',', '') AS DOUBLE) AS prev_year_range_gross,
 
     -- Clean date column
-    CAST(Date AS DATE) AS date_clean
+    CAST(Date AS DATE) AS date_clean,
+    CAST(Date AS DATE) AS Date
 
 FROM {{ ref('base_ms_data') }}
