@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_demo
+    database: dbt_demo
+    schema: main
+    tables:
+      - name: ms_data
+      - name: ms_industry
